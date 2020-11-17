@@ -1,0 +1,99 @@
+body {
+  font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+main {
+  display: flex;
+  position: relative;
+  margin: 0px 184px;
+  padding: 72px 0 112px 0;
+}
+
+main .main-hero {
+  padding-top: 100px;
+  width: 548px;
+  padding-right: 32px;
+}
+main .main-hero img {
+  position: relative;
+  right: 35px;
+  bottom: 5px;
+}
+main .main-hero h2 {
+  position: relative;
+  right: 7px;
+  bottom: 15px;
+  margin: 0;
+  width: 500px;
+  font-weight: lighter;
+  font-size: 28px;
+  color: #1c1e21;
+}
+
+main .main-user {
+  margin-left: 40px;
+  padding-top: 52px;
+  height: 426px;
+}
+main .main-user article {
+  width: 396px;
+  height: 320px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+main .user-input {
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+main .main-user .user-input-name {
+  padding: 0 17px 0 17px;
+  width: 330px;
+  height: 50px;
+  border: 0.1px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #e4e5e8;
+  margin-bottom: 13px;
+  outline: none;
+}
+main .main-user .user-input-password {
+  padding: 0 17px 0 17px;
+  width: 330px;
+  height: 50px;
+  border: 0.1px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #e4e5e8;
+  margin-bottom: 13px;
+  outline: none;
+}
+main .main-user input:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+main .main-user .letter {
+  font-size: 17px;
+  color: black;
+}
+
+main .user-input-button {
+  text-align: center;
+}
+main .user-input-button button {
+  margin: 0 0 15px 0;
+  padding: 0;
+  width: 365px;
+  height: 45px;
+  border-radius: 6px;
+  border-style: none;
+  background-color: #1877f2;
+  outline: none;
+}
+main .user-input-button a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #1877f2;
+}

@@ -1,0 +1,60 @@
+@media screen and (min-width: 2560px) {
+  main {
+    margin: 0 795px;
+  }
+  main .hero {
+    margin-left: -80px;
+  }
+  main .main-hero {
+    margin: 0 0 0 32px;
+  }
+  main .main-user {
+    margin: 0;
+    margin-left: 80px;
+  }
+  footer .footer-container {
+    padding: 0 560px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  main .hero {
+    position: relative;
+    left: 50px;
+  }
+  footer .footer-container {
+    margin: 0 230px;
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    margin: 0 40px;
+  }
+  main .main-hero h2 {
+    width: 350px;
+    font-size: 24px;
+  }
+  main .hero {
+    position: relative;
+    left: 8px;
+  }
+  main .main-user {
+    margin: 0;
+  }
+
+  footer {
+    height: 150px;
+  }
+  footer .footer-container {
+    margin: 0 40px;
+    max-width: 100%;
+  }
+  footer .other .b {
+    margin-right: 20px;
+  }
+  footer .credits p {
+    padding-bottom: 20px;
+  }
+}

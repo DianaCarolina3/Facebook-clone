@@ -226,6 +226,9 @@ footer .other a {
   color: #8a8d91;
   vertical-align: super;
 }
+footer .other a:hover {
+  text-decoration: underline;
+}
 footer .other img {
   position: relative;
   left: 2px;

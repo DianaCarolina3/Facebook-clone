@@ -1,6 +1,6 @@
 @media screen and (min-width: 2560px) {
   main {
-    margin: 0 795px;
+    margin: 0 790px;
   }
   main .hero {
     margin-left: -80px;
@@ -19,7 +19,6 @@
 
 @media screen and (min-width: 1440px) {
   main .hero {
-    position: relative;
     left: 50px;
   }
   footer .footer-container {
@@ -32,12 +31,14 @@
   main {
     margin: 0 40px;
   }
+  main .main-hero {
+    padding-right: 0px;
+  }
   main .main-hero h2 {
     width: 350px;
     font-size: 24px;
   }
   main .hero {
-    position: relative;
     left: 8px;
   }
   main .main-user {
@@ -59,5 +60,8 @@
   }
 }
 
-@media screen and (min-width: 848px) {
+@media screen and (max-width: 848px) {
+  main {
+    flex-direction: column;
+  }
 }

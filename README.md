@@ -1,2 +1,2 @@
 # Facebook-clone
-This is a practice of facebook clone where I review HTML and CSS.
+Facebook clone where I put practice html and css.
